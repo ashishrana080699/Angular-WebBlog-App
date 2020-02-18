@@ -25,15 +25,8 @@ import { ViewComponent } from './view/view.component';
 import { CommentsComponent } from './comments/comments.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
-let config ={
-  apiKey: "AIzaSyCtKPcnTRBcy-M2C2VhKFLz4w4BrzPQIqQ",
-  authDomain: "asrwebblog.firebaseapp.com",
-  databaseURL: "https://asrwebblog.firebaseio.com",
-  projectId: "asrwebblog",
-  storageBucket: "",
-  messagingSenderId: "898476877412",
-  appId: "1:898476877412:web:0f373df3bda95e2b"
-};
+let config ={"Enter your firebase configuration"
+}
 firebase.initializeApp(config);
 
 @NgModule({

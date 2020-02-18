@@ -25,7 +25,7 @@ import { ViewComponent } from './view/view.component';
 import { CommentsComponent } from './comments/comments.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
-let config ={"Enter your firebase configuration"
+let config ={"Enter your firebase configuration like api-key "
 }
 firebase.initializeApp(config);
 
